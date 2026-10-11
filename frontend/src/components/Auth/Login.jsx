@@ -16,13 +16,7 @@ const Login = () => {
   const adminAuth = useAdminAuth();
   const navigate = useNavigate();
 
-  React.useEffect(() => {
-    if (adminAuth.isAuthenticated) {
-      navigate('/admin/dashboard', { replace: true });
-    } else if (userAuth.isAuthenticated) {
-      navigate('/dashboard', { replace: true });
-    }
-  }, [adminAuth.isAuthenticated, userAuth.isAuthenticated, navigate]);
+
 
   const isValidEmail = (value) => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(value).trim());
@@ -139,6 +133,35 @@ const Login = () => {
 
         {/* Right Neomorphic Form Panel */}
         <div className="md:w-3/5 p-8 md:p-10 flex flex-col justify-between space-y-6">
+          {userAuth.user && (
+            <div className="bg-blue-50/80 border border-blue-200 rounded-2xl p-3 shadow-inner flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs animate-in fade-in duration-200">
+              <div className="min-w-0">
+                <span className="text-gray-500 block text-[10px] font-bold uppercase tracking-wider">Currently signed in as:</span>
+                <span className="font-extrabold text-[#2874f0] text-sm truncate block">{userAuth.user.name}</span>
+                <span className="text-gray-500 block text-[11px] font-mono truncate">{userAuth.user.email}</span>
+              </div>
+              <div className="flex items-center gap-2 shrink-0">
+                <button
+                  type="button"
+                  onClick={() => navigate('/dashboard')}
+                  className="px-2.5 py-1.5 bg-[#2874f0] text-white font-bold rounded-lg text-xs shadow-sm hover:bg-[#1a5ecc] transition-all"
+                >
+                  Go to Store
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    userAuth.logout();
+                    showToast('Logged out successfully. You can now login or sign up with a new account.');
+                  }}
+                  className="px-2.5 py-1.5 bg-rose-100 text-rose-700 font-bold rounded-lg text-xs hover:bg-rose-200 transition-all border border-rose-200"
+                >
+                  Sign Out / Switch
+                </button>
+              </div>
+            </div>
+          )}
+
           <form onSubmit={handleLogin} className="space-y-5">
             <div>
               <label className="block text-xs font-bold text-gray-600 mb-1.5 uppercase tracking-wider">
