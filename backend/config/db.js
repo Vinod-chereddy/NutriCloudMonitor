@@ -1,11 +1,13 @@
 import mongoose from 'mongoose';
 import dns from 'dns';
 
-// Fallback to reliable public DNS resolvers (Google / Cloudflare) to prevent ISP DNS timeouts on MongoDB Atlas SRV records
-try {
-  dns.setServers(['8.8.8.8', '1.1.1.1']);
-} catch (dnsErr) {
-  console.warn('DNS server configuration notice:', dnsErr.message);
+// Fallback to reliable public DNS resolvers on local dev machines to prevent ISP DNS timeouts on Atlas SRV records
+if (!process.env.RENDER && !process.env.VERCEL) {
+  try {
+    dns.setServers(['8.8.8.8', '1.1.1.1']);
+  } catch (dnsErr) {
+    console.warn('DNS server configuration notice:', dnsErr.message);
+  }
 }
 
 // Resilient Mongoose query buffering for cloud deployments (prevents timeout on cold starts or network latency)
