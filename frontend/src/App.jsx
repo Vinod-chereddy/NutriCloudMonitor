@@ -26,9 +26,11 @@ function App() {
           <WishlistProvider>
             <ErrorBoundary>
               <Routes>
-                {/* User Routes */}
+                {/* User Auth Routes */}
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
+
+                {/* Protected User Routes */}
                 <Route
                   path="/dashboard"
                   element={
@@ -37,7 +39,14 @@ function App() {
                     </PrivateRoute>
                   }
                 />
-                <Route path="/products" element={<Products />} />
+                <Route
+                  path="/products"
+                  element={
+                    <PrivateRoute>
+                      <Products />
+                    </PrivateRoute>
+                  }
+                />
                 <Route
                   path="/cart"
                   element={
@@ -46,23 +55,38 @@ function App() {
                     </PrivateRoute>
                   }
                 />
-                <Route path="/orders" element={<Orders />} />
-                <Route path="/wishlist" element={<Wishlist />} />
+                <Route
+                  path="/orders"
+                  element={
+                    <PrivateRoute>
+                      <Orders />
+                    </PrivateRoute>
+                  }
+                />
+                <Route
+                  path="/wishlist"
+                  element={
+                    <PrivateRoute>
+                      <Wishlist />
+                    </PrivateRoute>
+                  }
+                />
 
-              {/* Admin Routes */}
-              <Route path="/admin/login" element={<Navigate to="/login" replace />} />
-              <Route
-                path="/admin/dashboard"
-                element={
-                  <AdminPrivateRoute>
-                    <AdminDashboard />
-                  </AdminPrivateRoute>
-                }
-              />
+                {/* Admin Routes */}
+                <Route path="/admin/login" element={<Navigate to="/login" replace />} />
+                <Route
+                  path="/admin/dashboard"
+                  element={
+                    <AdminPrivateRoute>
+                      <AdminDashboard />
+                    </AdminPrivateRoute>
+                  }
+                />
 
-              {/* Default Routes */}
-              <Route path="/" element={<Navigate to="/products" replace />} />
-              <Route path="/admin" element={<Navigate to="/login" replace />} />
+                {/* Default Entry Route - Redirect to Login if unauthenticated */}
+                <Route path="/" element={<Navigate to="/login" replace />} />
+                <Route path="/admin" element={<Navigate to="/login" replace />} />
+                <Route path="*" element={<Navigate to="/login" replace />} />
             </Routes>
           </ErrorBoundary>
         </WishlistProvider>

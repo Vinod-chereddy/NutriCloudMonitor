@@ -16,6 +16,14 @@ const Login = () => {
   const adminAuth = useAdminAuth();
   const navigate = useNavigate();
 
+  React.useEffect(() => {
+    if (adminAuth.isAuthenticated) {
+      navigate('/admin/dashboard', { replace: true });
+    } else if (userAuth.isAuthenticated) {
+      navigate('/dashboard', { replace: true });
+    }
+  }, [adminAuth.isAuthenticated, userAuth.isAuthenticated, navigate]);
+
   const isValidEmail = (value) => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(value).trim());
   };
@@ -77,8 +85,8 @@ const Login = () => {
   };
 
   const handleFillAdmin = () => {
-    setEmail('admin@nutri.co');
-    setPassword('admin918');
+    setEmail('admin@healthcart.com');
+    setPassword('admin123');
   };
 
   const handleFillUser = () => {
