@@ -4,9 +4,10 @@
   "description": "NutriCloudMonitor - Real-Time Behavioral SOC Monitoring Platform & E-Commerce",
   "private": true,
   "scripts": {
+    "postinstall": "npm --prefix backend install",
     "install:all": "npm --prefix backend install && npm --prefix frontend install",
-    "start": "node backend/server.js",
-    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
     "server": "npm --prefix backend start",
     "client": "npm --prefix frontend run dev",
     "dev:backend": "npm --prefix backend run dev",
