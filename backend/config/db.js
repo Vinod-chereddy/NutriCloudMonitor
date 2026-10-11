@@ -13,17 +13,25 @@ mongoose.set('bufferTimeoutMS', 1500);
 
 const connectDB = async () => {
   try {
-    const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/healthcart';
+    let mongoUri = process.env.MONGODB_URI;
+
+    // Auto-detect if MONGODB_URI was accidentally pasted into another env variable (like PORT)
+    if (!mongoUri || !mongoUri.startsWith('mongodb')) {
+      if (process.env.PORT && process.env.PORT.startsWith('mongodb')) {
+        mongoUri = process.env.PORT;
+      } else {
+        mongoUri = 'mongodb+srv://vinodkumarreddycv_db_user:xVfW9IJvrPsOOxfe@cluster0.31kjofb.mongodb.net/healthcart?retryWrites=true&w=majority&appName=Cluster0';
+      }
+    }
+
     const conn = await mongoose.connect(mongoUri, {
-      serverSelectionTimeoutMS: 3000,
+      serverSelectionTimeoutMS: 5000,
       socketTimeoutMS: 45000,
-      family: 4, // Force IPv4 to prevent Windows IPv6 DNS/TLS handshake timeout
     });
     console.log(`✅ MongoDB Connected: ${conn.connection.host}`);
     return conn;
   } catch (error) {
     console.error(`⚠️ MongoDB Connection Notice: ${error.message}`);
-    console.log('💡 Note: Ensure your IP is whitelisted in MongoDB Atlas Network Access and MONGODB_URI is valid in backend/.env');
   }
 };
 

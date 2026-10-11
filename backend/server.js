@@ -168,7 +168,11 @@ app.use((err, req, res, next) => {
 // ========================================
 // START SERVER
 // ========================================
-const PORT = process.env.PORT || 5000;
+let PORT = 5000;
+const rawPort = process.env.PORT;
+if (rawPort && !isNaN(Number(rawPort)) && Number(rawPort) > 0) {
+  PORT = Number(rawPort);
+}
 
 httpServer.listen(PORT, "0.0.0.0", () => {
   console.log(`🚀 NutriCloudMonitor SOC Server running on port ${PORT}`);
