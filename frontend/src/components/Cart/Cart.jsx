@@ -77,8 +77,16 @@ const Cart = () => {
   const handleCheckout = async () => {
     setCheckoutLoading(true);
     try {
+      const cartItems = cart?.items || [];
       await orderAPI.createOrder({
-        shippingAddress: '123 Health St, Wellness Colony, Bengaluru, Karnataka, 560103'
+        shippingAddress: '123 Health St, Wellness Colony, Bengaluru, Karnataka, 560103',
+        items: cartItems.map(i => ({
+          productId: i.productId?._id || i.product?._id || i.productId || i.product || i._id,
+          name: i.product?.name || i.name || 'Nutrition Product',
+          quantity: i.quantity || 1,
+          price: i.price || i.product?.price || 0,
+          selectedVariant: i.selectedVariant || ''
+        }))
       });
       fetchCart();
       setToast({ 

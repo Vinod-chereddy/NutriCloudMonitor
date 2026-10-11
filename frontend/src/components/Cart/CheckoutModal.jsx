@@ -105,7 +105,14 @@ const CheckoutModal = ({
           upiId: finalUpiId,
           transactionId: txnRef,
           paymentStatus: 'Success'
-        }
+        },
+        items: (items || []).map((i) => ({
+          productId: i.productId?._id || i.product?._id || i.productId || i.product || i._id,
+          name: i.product?.name || i.name || 'Nutrition Product',
+          quantity: i.quantity || 1,
+          price: i.price || i.product?.price || 0,
+          selectedVariant: i.selectedVariant || ''
+        }))
       });
 
       const orderData = response.data?.order || {

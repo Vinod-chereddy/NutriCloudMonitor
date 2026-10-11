@@ -1,10 +1,15 @@
 import React from 'react';
-import { LogOut, Users, Activity, ShieldAlert, LayoutDashboard, GitMerge, ShieldCheck, UserCog } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { LogOut, Users, Activity, ShieldAlert, LayoutDashboard, GitMerge, ShieldCheck, UserCog, ShoppingBag } from 'lucide-react';
 import { useAdminAuth } from '../../../context/AdminAuthContext';
+import { useAuth } from '../../../context/AuthContext';
 
 const AdminSidebar = ({ activeTab, setActiveTab, handleLogout, onLogout }) => {
+    const navigate = useNavigate();
     const performLogout = handleLogout || onLogout;
     const { admin } = useAdminAuth();
+    const { user } = useAuth();
+    const activeEmail = admin?.email || user?.email || 'admin@healthcart.com';
 
     const navItems = [
         { key: 'overview', label: 'SOC Overview', desc: 'Real-Time Telemetry', icon: LayoutDashboard },
@@ -34,8 +39,29 @@ const AdminSidebar = ({ activeTab, setActiveTab, handleLogout, onLogout }) => {
                     </div>
                 </div>
 
+                {/* Return to Storefront Quick Button */}
+                <div className="px-3 pt-4 pb-1">
+                    <button
+                        onClick={() => navigate('/dashboard')}
+                        className="group w-full overflow-hidden rounded-2xl border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 px-4 py-3 text-left transition-all duration-200 flex items-center gap-3 shadow-[0_4px_15px_rgba(16,185,129,0.1)] text-emerald-300 hover:text-white"
+                        title="Return to NutriKart Storefront"
+                    >
+                        <div className="flex h-9 w-9 items-center justify-center rounded-xl border border-emerald-400/30 bg-emerald-400/15 text-emerald-300 shrink-0">
+                            <ShoppingBag size={17} />
+                        </div>
+                        <div className="min-w-0">
+                            <p className="text-xs font-black uppercase tracking-wider truncate">
+                                Return to Store
+                            </p>
+                            <p className="text-[10px] font-mono text-emerald-400/80 truncate">
+                                NutriKart Shopping
+                            </p>
+                        </div>
+                    </button>
+                </div>
+
                 {/* Navigation Menu */}
-                <div className="px-3 py-6 space-y-2">
+                <div className="px-3 py-3 space-y-2">
                     {navItems.map(({ key, label, desc, icon: Icon }) => {
                         const isActive = activeTab === key;
 
@@ -95,7 +121,7 @@ const AdminSidebar = ({ activeTab, setActiveTab, handleLogout, onLogout }) => {
                             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
                         </div>
                         <div className="text-[10px] text-gray-400 font-mono truncate">
-                            {admin?.email || 'admin@healthcart.com'}
+                            {activeEmail}
                         </div>
                     </div>
                 </div>

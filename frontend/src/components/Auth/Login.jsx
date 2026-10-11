@@ -233,8 +233,8 @@ const Login = () => {
             <div className="grid grid-cols-2 gap-2 text-xs">
               <div className="bg-white/60 p-2 rounded-lg">
                 <p className="font-bold text-[#2874f0] text-[10px]">Admin SOC:</p>
-                <p className="text-gray-800 font-mono text-[11px]">admin@nutri.co</p>
-                <p className="text-gray-500 font-mono text-[11px]">admin918</p>
+                <p className="text-gray-800 font-mono text-[11px]">admin@healthcart.com</p>
+                <p className="text-gray-500 font-mono text-[11px]">admin123</p>
               </div>
               <div className="bg-white/60 p-2 rounded-lg">
                 <p className="font-bold text-emerald-600 text-[10px]">Standard User:</p>

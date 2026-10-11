@@ -8,8 +8,8 @@ try {
   console.warn('DNS server configuration notice:', dnsErr.message);
 }
 
-// Prevent Mongoose from buffering queries for 10 seconds when DB is temporarily unreachable
-mongoose.set('bufferTimeoutMS', 1500);
+// Resilient Mongoose query buffering for cloud deployments (prevents timeout on cold starts or network latency)
+mongoose.set('bufferTimeoutMS', 25000);
 
 const connectDB = async () => {
   try {
@@ -25,7 +25,7 @@ const connectDB = async () => {
     }
 
     const conn = await mongoose.connect(mongoUri, {
-      serverSelectionTimeoutMS: 5000,
+      serverSelectionTimeoutMS: 15000,
       socketTimeoutMS: 45000,
     });
     console.log(`✅ MongoDB Connected: ${conn.connection.host}`);

@@ -14,27 +14,44 @@ export const createOrder = async (req, res) => {
       return res.status(400).json({ message: 'Please provide shipping address' });
     }
 
-    const cart = await Cart.findOne({ userId: req.user.userId }).populate(
-      'items.productId'
-    );
+    let items = [];
 
-    if (!cart || cart.items.length === 0) {
-      return res.status(400).json({ message: 'Cart is empty' });
+    // Support items provided directly in request body (e.g., from checkout modal state)
+    if (Array.isArray(req.body.items) && req.body.items.length > 0) {
+      items = req.body.items.map((item) => ({
+        productId: item.productId || item.product?._id || item._id,
+        name: item.name || item.product?.name || 'Nutrition Product',
+        quantity: Math.max(1, Number(item.quantity) || 1),
+        price: Number(item.price) || Number(item.product?.price) || 0,
+        selectedVariant: item.selectedVariant || '',
+      }));
+    } else {
+      const cart = await Cart.findOne({ userId: req.user.userId }).populate(
+        'items.productId'
+      );
+
+      if (!cart || cart.items.length === 0) {
+        return res.status(400).json({ message: 'Cart is empty' });
+      }
+
+      const validItems = cart.items.filter(item => item.productId != null);
+
+      if (validItems.length === 0) {
+        return res.status(400).json({ message: 'Cart has no valid items' });
+      }
+
+      items = validItems.map((item) => ({
+        productId: item.productId._id,
+        name: item.productId.name,
+        quantity: item.quantity,
+        price: item.price,
+        selectedVariant: item.selectedVariant || '',
+      }));
     }
 
-    const validItems = cart.items.filter(item => item.productId != null);
-
-    if (validItems.length === 0) {
-      return res.status(400).json({ message: 'Cart has no valid items' });
+    if (items.length === 0) {
+      return res.status(400).json({ message: 'No valid items found for checkout' });
     }
-
-    const items = validItems.map((item) => ({
-      productId: item.productId._id,
-      name: item.productId.name,
-      quantity: item.quantity,
-      price: item.price,
-      selectedVariant: item.selectedVariant || '',
-    }));
 
     const totalAmount = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
@@ -133,8 +150,12 @@ export const createOrder = async (req, res) => {
       }
     }
 
-    // Clear cart
-    await Cart.updateOne({ userId: req.user.userId }, { items: [] });
+    // Clear cart safely
+    try {
+      await Cart.updateOne({ userId: req.user.userId }, { items: [] });
+    } catch (cartClearErr) {
+      console.warn('Cart clearing notice:', cartClearErr.message);
+    }
 
     res.status(201).json({
       success: true,
