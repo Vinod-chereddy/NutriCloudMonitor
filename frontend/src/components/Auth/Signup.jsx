@@ -149,6 +149,23 @@ const Signup = () => {
 
         {/* Right Neomorphic Form Panel */}
         <div className="md:w-3/5 p-8 md:p-10 flex flex-col justify-between space-y-5">
+          {/* Tab Switcher: Login / Create Account */}
+          <div className="flex border-b border-gray-200/80 mb-1">
+            <button
+              type="button"
+              onClick={() => navigate('/login')}
+              className="flex-1 pb-3 font-bold text-sm text-gray-500 hover:text-gray-900 tracking-wide transition-colors"
+            >
+              🔑 Login
+            </button>
+            <button
+              type="button"
+              className="flex-1 pb-3 font-black text-sm text-[#2874f0] border-b-2 border-[#2874f0] tracking-wide"
+            >
+              ✍️ Sign Up (New User)
+            </button>
+          </div>
+
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-xs font-bold text-gray-600 mb-1 uppercase tracking-wider">

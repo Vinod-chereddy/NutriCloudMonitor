@@ -15,14 +15,40 @@ export const AdminAuthProvider = ({ children }) => {
   const [token, setToken] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Load admin from localStorage on mount
+  // Initialize admin session - do not auto-login across separate browser sessions
   useEffect(() => {
-    const storedAdmin = localStorage.getItem('admin');
-    const storedToken = localStorage.getItem('adminToken');
+    const rawLocalAdmin = localStorage.getItem('admin');
+    const rawSessionAdmin = sessionStorage.getItem('admin');
+    if (
+      (rawLocalAdmin && rawLocalAdmin.toLowerCase().includes('vinod')) ||
+      (rawSessionAdmin && rawSessionAdmin.toLowerCase().includes('vinod'))
+    ) {
+      localStorage.removeItem('admin');
+      localStorage.removeItem('adminToken');
+      sessionStorage.removeItem('admin');
+      sessionStorage.removeItem('adminToken');
+      setAdmin(null);
+      setToken(null);
+      setLoading(false);
+      return;
+    }
+
+    const storedAdmin = sessionStorage.getItem('admin');
+    const storedToken = sessionStorage.getItem('adminToken');
 
     if (storedAdmin && storedToken) {
-      setAdmin(JSON.parse(storedAdmin));
-      setToken(storedToken);
+      try {
+        setAdmin(JSON.parse(storedAdmin));
+        setToken(storedToken);
+      } catch (err) {
+        sessionStorage.removeItem('admin');
+        sessionStorage.removeItem('adminToken');
+      }
+    } else {
+      localStorage.removeItem('admin');
+      localStorage.removeItem('adminToken');
+      setAdmin(null);
+      setToken(null);
     }
     setLoading(false);
   }, []);
@@ -30,6 +56,8 @@ export const AdminAuthProvider = ({ children }) => {
   const login = (adminData, authToken) => {
     setAdmin(adminData);
     setToken(authToken);
+    sessionStorage.setItem('admin', JSON.stringify(adminData));
+    sessionStorage.setItem('adminToken', authToken);
     localStorage.setItem('admin', JSON.stringify(adminData));
     localStorage.setItem('adminToken', authToken);
   };
@@ -37,6 +65,8 @@ export const AdminAuthProvider = ({ children }) => {
   const logout = () => {
     setAdmin(null);
     setToken(null);
+    sessionStorage.removeItem('admin');
+    sessionStorage.removeItem('adminToken');
     localStorage.removeItem('admin');
     localStorage.removeItem('adminToken');
   };
@@ -51,7 +81,8 @@ export const AdminAuthProvider = ({ children }) => {
   };
 
   return (
-    <AdminAuthContext.Provider value={value}>{children}</AdminAuthContext.Provider>
+    <AdminAuthContext.Provider value={value}>
+      {children}
+    </AdminAuthContext.Provider>
   );
 };
-

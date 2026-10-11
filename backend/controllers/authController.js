@@ -114,7 +114,7 @@ export const login = async (req, res) => {
     // Real pre-configured evaluation accounts
     const testAccounts = {
       'nagarivenkatesh230@gmail.com': { name: 'Nagari Venkatesh', password: 'password123' },
-      'user@healthcart.com': { name: 'Vinod Kumar', password: 'user123' },
+      'user@healthcart.com': { name: 'Demo Customer', password: 'user123' },
     };
 
     if (testAccounts[email] && (password === testAccounts[email].password || password === 'password123' || password === 'user123')) {

@@ -15,14 +15,43 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Load user from localStorage on mount
+  // Initialize session - do not auto-login from persistent localStorage
   useEffect(() => {
-    const storedUser = localStorage.getItem('user');
-    const storedToken = localStorage.getItem('token');
+    // Aggressively purge any legacy 'Vinod' test accounts or stale persistent storage
+    const rawLocalUser = localStorage.getItem('user');
+    const rawSessionUser = sessionStorage.getItem('user');
+    if (
+      (rawLocalUser && rawLocalUser.toLowerCase().includes('vinod')) ||
+      (rawSessionUser && rawSessionUser.toLowerCase().includes('vinod'))
+    ) {
+      localStorage.removeItem('user');
+      localStorage.removeItem('token');
+      sessionStorage.removeItem('user');
+      sessionStorage.removeItem('token');
+      setUser(null);
+      setToken(null);
+      setLoading(false);
+      return;
+    }
 
-    if (storedUser && storedToken) {
-      setUser(JSON.parse(storedUser));
-      setToken(storedToken);
+    // Only restore session if active in this browser session
+    const sessionUser = sessionStorage.getItem('user');
+    const sessionToken = sessionStorage.getItem('token');
+
+    if (sessionUser && sessionToken) {
+      try {
+        setUser(JSON.parse(sessionUser));
+        setToken(sessionToken);
+      } catch (err) {
+        sessionStorage.removeItem('user');
+        sessionStorage.removeItem('token');
+      }
+    } else {
+      // Clear any legacy localStorage to ensure visitors are ALWAYS asked to login/signup
+      localStorage.removeItem('user');
+      localStorage.removeItem('token');
+      setUser(null);
+      setToken(null);
     }
     setLoading(false);
   }, []);
@@ -30,6 +59,8 @@ export const AuthProvider = ({ children }) => {
   const login = (userData, authToken) => {
     setUser(userData);
     setToken(authToken);
+    sessionStorage.setItem('user', JSON.stringify(userData));
+    sessionStorage.setItem('token', authToken);
     localStorage.setItem('user', JSON.stringify(userData));
     localStorage.setItem('token', authToken);
   };
@@ -37,12 +68,15 @@ export const AuthProvider = ({ children }) => {
   const logout = () => {
     setUser(null);
     setToken(null);
+    sessionStorage.removeItem('user');
+    sessionStorage.removeItem('token');
     localStorage.removeItem('user');
     localStorage.removeItem('token');
   };
 
   const updateUser = (userData) => {
     setUser(userData);
+    sessionStorage.setItem('user', JSON.stringify(userData));
     localStorage.setItem('user', JSON.stringify(userData));
   };
 
@@ -58,4 +92,3 @@ export const AuthProvider = ({ children }) => {
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
-

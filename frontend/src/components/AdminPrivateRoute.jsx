@@ -7,7 +7,7 @@ const AdminPrivateRoute = ({ children }) => {
   const { isAuthenticated: isAdminAuth, loading: adminLoading } = useAdminAuth();
   const { isAuthenticated: isUserAuth, loading: userLoading } = useAuth();
 
-  const token = localStorage.getItem('token') || localStorage.getItem('adminToken');
+  const token = sessionStorage.getItem('token') || sessionStorage.getItem('adminToken') || localStorage.getItem('token') || localStorage.getItem('adminToken');
 
   if (adminLoading && userLoading) {
     return (
