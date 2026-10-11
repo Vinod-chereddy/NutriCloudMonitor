@@ -1,0 +1,2346 @@
+[
+  {
+    "name": "Optimum Nutrition Gold Standard 100% Whey Protein",
+    "description": "Gold standard micro-filtered whey protein isolate providing 24g protein, 5.5g BCAAs, and 4g glutamine per serving. Labdoor certified pure.",
+    "price": 2899,
+    "category": "Protein",
+    "image": "/images/products/product_001.jpg",
+    "stock": 45,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 2899
+      },
+      {
+        "size": "2 kg",
+        "price": 5499
+      },
+      {
+        "size": "4.5 kg",
+        "price": 11499
+      }
+    ]
+  },
+  {
+    "name": "Optimum Nutrition Serious Mass High Calorie Weight Gainer",
+    "description": "Massive calorie formula packing 1,250 calories and 50g protein per serving with 25 vitamins and minerals for hardgainers.",
+    "price": 2799,
+    "category": "Protein",
+    "image": "/images/products/product_002.jpg",
+    "stock": 32,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "3 kg",
+        "price": 2799
+      },
+      {
+        "size": "5 kg",
+        "price": 4499
+      }
+    ]
+  },
+  {
+    "name": "Optimum Nutrition Platinum Hydrowhey Isolate",
+    "description": "Ultra-pure hydrolyzed whey protein broken into micro-peptides for instantaneous cellular absorption and lightning-fast post-workout recovery.",
+    "price": 3899,
+    "category": "Protein",
+    "image": "/images/products/product_003.jpg",
+    "stock": 25,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "1.6 kg",
+        "price": 3899
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Biozyme Performance Whey (Clinically Tested)",
+    "description": "India first clinically tested Enhanced Absorption Formula (EAF) delivering 50% higher protein absorption and 60% higher BCAA bioavailability.",
+    "price": 2299,
+    "category": "Protein",
+    "image": "/images/products/product_004.jpg",
+    "stock": 60,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 2299
+      },
+      {
+        "size": "2 kg",
+        "price": 4199
+      },
+      {
+        "size": "4 kg",
+        "price": 7999
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Super Gainer XXL High Calorie",
+    "description": "High calorie mass gainer with complex carbs and multi-source proteins delivering 1,120 calories and 45g protein per 3 servings.",
+    "price": 1899,
+    "category": "Protein",
+    "image": "/images/products/product_005.jpg",
+    "stock": 40,
+    "rating": 4.5,
+    "recommendedFor": [
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "3 kg",
+        "price": 1899
+      },
+      {
+        "size": "5 kg",
+        "price": 2999
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Whey Gold 100% Whey Isolate",
+    "description": "Pure whey isolate made with imported raw whey isolate from USA. Delivers 30g protein and 6.6g BCAAs per 33g scoop with 0g added sugar.",
+    "price": 2999,
+    "category": "Protein",
+    "image": "/images/products/product_006.jpg",
+    "stock": 35,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 2999
+      },
+      {
+        "size": "2 kg",
+        "price": 5699
+      }
+    ]
+  },
+  {
+    "name": "Dymatize ISO100 Hydrolyzed 100% Whey Isolate",
+    "description": "Award-winning hydrolyzed whey protein isolate with 25g protein and less than 1g carbs and fat per serving. Gourmet Chocolate Peanut Butter flavor.",
+    "price": 3699,
+    "category": "Protein",
+    "image": "/images/products/product_007.jpg",
+    "stock": 28,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "1.1 kg",
+        "price": 3699
+      },
+      {
+        "size": "2.3 kg",
+        "price": 7199
+      }
+    ]
+  },
+  {
+    "name": "Dymatize Elite 100% Whey Protein Blend",
+    "description": "Fast-digesting whey protein isolate and whey concentrate blend supplying 25g protein and 5.5g BCAAs per scoop.",
+    "price": 2799,
+    "category": "Protein",
+    "image": "/images/products/product_008.jpg",
+    "stock": 30,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "2 kg",
+        "price": 2799
+      },
+      {
+        "size": "4.5 kg",
+        "price": 5899
+      }
+    ]
+  },
+  {
+    "name": "Myprotein Impact Whey Protein (Labdoor Rank #1)",
+    "description": "Ranked Grade-A by independent tester Labdoor for quality and value. 21g protein and 4.5g BCAAs per serving from premium grass-fed cow milk.",
+    "price": 2199,
+    "category": "Protein",
+    "image": "/images/products/product_009.jpg",
+    "stock": 55,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 2199
+      },
+      {
+        "size": "2.5 kg",
+        "price": 4799
+      },
+      {
+        "size": "5 kg",
+        "price": 8999
+      }
+    ]
+  },
+  {
+    "name": "Myprotein Clear Whey Isolate Fruity Refresh",
+    "description": "Innovative light and refreshing clear whey isolate that drinks like juice rather than a creamy milky shake. 20g protein and zero sugar.",
+    "price": 2699,
+    "category": "Protein",
+    "image": "/images/products/product_010.jpg",
+    "stock": 22,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "500g Tub",
+        "price": 2699
+      }
+    ]
+  },
+  {
+    "name": "Ultimate Nutrition Prostar 100% Whey Protein",
+    "description": "Classic American whey protein formula supplying 25g protein and 6g BCAAs per scoop. Mixes instantly in cold water or milk.",
+    "price": 2499,
+    "category": "Protein",
+    "image": "/images/products/product_011.jpg",
+    "stock": 45,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 2499
+      },
+      {
+        "size": "2.39 kg",
+        "price": 5199
+      }
+    ]
+  },
+  {
+    "name": "AS-IT-IS Nutrition Raw Whey Protein 80% Unflavored",
+    "description": "100% pure, unadulterated, unflavored raw whey protein concentrate without flavorings, preservatives, or artificial additives. 24g protein per scoop.",
+    "price": 1399,
+    "category": "Protein",
+    "image": "/images/products/product_012.jpg",
+    "stock": 80,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 1399
+      },
+      {
+        "size": "2.5 kg",
+        "price": 3299
+      },
+      {
+        "size": "5 kg",
+        "price": 6299
+      }
+    ]
+  },
+  {
+    "name": "AS-IT-IS Nutrition Atom Whey Protein Double Rich Choc",
+    "description": "Enhanced performance whey protein with added digestive enzyme blend (DigeZyme) for maximum absorption and great chocolate taste.",
+    "price": 1699,
+    "category": "Protein",
+    "image": "/images/products/product_013.jpg",
+    "stock": 65,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 1699
+      },
+      {
+        "size": "2 kg",
+        "price": 3199
+      }
+    ]
+  },
+  {
+    "name": "Fast&Up 100% Vegan Plant Protein with Pea & Brown Rice",
+    "description": "Premium yellow pea and brown rice isolate blend providing 26g plant protein, 4.6g BCAAs, and natural coconut MCTs for clean sustained energy.",
+    "price": 1999,
+    "category": "Protein",
+    "image": "/images/products/product_014.jpg",
+    "stock": 50,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 1999
+      },
+      {
+        "size": "2 kg",
+        "price": 3699
+      }
+    ]
+  },
+  {
+    "name": "Cosmix Plant Protein with Gut-Friendly Probiotics",
+    "description": "Herbal digestive plant protein made with organic golden peas, raw pumpkin seeds, digestive enzymes, and Indian ayurvedic herbs.",
+    "price": 1899,
+    "category": "Protein",
+    "image": "/images/products/product_015.jpg",
+    "stock": 35,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "500g Pouch",
+        "price": 1899
+      },
+      {
+        "size": "1 kg Pouch",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "name": "Tata GoFit Women Plant Protein with Gut Botanicals",
+    "description": "Tailored for women nutrition with pea and brown rice isolate, gut-soothing gut botanicals, and zero lactose or added sugar.",
+    "price": 1499,
+    "category": "Protein",
+    "image": "/images/products/product_016.jpg",
+    "stock": 45,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "500g Jar",
+        "price": 1499
+      },
+      {
+        "size": "1 kg Jar",
+        "price": 2799
+      }
+    ]
+  },
+  {
+    "name": "Plix The Plant Protein Raw Chocolate Blend",
+    "description": "Clean antioxidant-rich plant protein with grape seed extract, bromelain, and papain enzymes for light digestion and smooth chocolate flavor.",
+    "price": 1599,
+    "category": "Protein",
+    "image": "/images/products/product_017.jpg",
+    "stock": 40,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 1599
+      },
+      {
+        "size": "2 kg",
+        "price": 2999
+      }
+    ]
+  },
+  {
+    "name": "The Whole Truth 100% Raw Whey Protein Concentrate",
+    "description": "Zero adulteration, single-ingredient raw whey protein sourced directly from USA grass-fed cows. Free from emulsifiers, gums, and artificial sweeteners.",
+    "price": 1999,
+    "category": "Protein",
+    "image": "/images/products/product_018.jpg",
+    "stock": 38,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 1999
+      },
+      {
+        "size": "2 kg",
+        "price": 3799
+      }
+    ]
+  },
+  {
+    "name": "Nakpro Platinum 100% Whey Protein Isolate",
+    "description": "Affordable pure whey isolate delivering 28g protein per 30g scoop with negligible lactose and zero fats or cholesterol.",
+    "price": 1899,
+    "category": "Protein",
+    "image": "/images/products/product_019.jpg",
+    "stock": 55,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg",
+        "price": 1899
+      },
+      {
+        "size": "2 kg",
+        "price": 3599
+      }
+    ]
+  },
+  {
+    "name": "Dymatize Elite Casein Slow Release Nighttime Protein",
+    "description": "100% micellar casein providing steady 7-hour amino acid release to preserve muscle mass and prevent nighttime muscle catabolism.",
+    "price": 3299,
+    "category": "Protein",
+    "image": "/images/products/product_020.jpg",
+    "stock": 24,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "1.8 kg",
+        "price": 3299
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze MB-Vite Daily Multivitamin with 51 Ingredients",
+    "description": "Comprehensive daily multivitamin with 51 active ingredients including 24 essential vitamins and minerals, amino acids, and antioxidant botanical blends.",
+    "price": 499,
+    "category": "Vitamins",
+    "image": "/images/products/product_021.jpg",
+    "stock": 80,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 499
+      },
+      {
+        "size": "120 Tablets",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "name": "Optimum Nutrition Opti-Men Daily Multivitamin Complex",
+    "description": "High potency nutrient optimization system for active men containing 75+ active ingredients in 4 performance-specific blends.",
+    "price": 1499,
+    "category": "Vitamins",
+    "image": "/images/products/product_022.jpg",
+    "stock": 45,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "90 Tablets",
+        "price": 1499
+      },
+      {
+        "size": "150 Tablets",
+        "price": 2299
+      }
+    ]
+  },
+  {
+    "name": "Optimum Nutrition Opti-Women Daily Essential Micronutrients",
+    "description": "Gender-specific vitamin and mineral formula with 40 active ingredients including iron, folic acid, and soy isoflavones for active women.",
+    "price": 1399,
+    "category": "Vitamins",
+    "image": "/images/products/product_023.jpg",
+    "stock": 40,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Capsules",
+        "price": 1399
+      },
+      {
+        "size": "120 Capsules",
+        "price": 2399
+      }
+    ]
+  },
+  {
+    "name": "HealthKart HK Vitals Multivitamin with Ginseng Extract",
+    "description": "Formulated with Korean Red Ginseng, Ginkgo Biloba, and 24 vitamins and minerals to boost daily stamina, mental alertness, and immunity.",
+    "price": 399,
+    "category": "Vitamins",
+    "image": "/images/products/product_024.jpg",
+    "stock": 90,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 399
+      },
+      {
+        "size": "90 Tablets",
+        "price": 549
+      }
+    ]
+  },
+  {
+    "name": "TrueBasics Multivit Sport with Joint & Energy Support",
+    "description": "Athletic multi-nutrient formula with added Glucosamine, Hyaluronic Acid, and Astaxanthin to support intense training and cartilage health.",
+    "price": 899,
+    "category": "Vitamins",
+    "image": "/images/products/product_025.jpg",
+    "stock": 50,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 899
+      },
+      {
+        "size": "90 Tablets",
+        "price": 1249
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Vitamin D3 60000 IU High Potency Chewables",
+    "description": "Cholecalciferol 60,000 IU once-a-week chewable tablets to rapidly resolve Vitamin D deficiency, strengthen bone density, and enhance immunity.",
+    "price": 249,
+    "category": "Vitamins",
+    "image": "/images/products/product_026.jpg",
+    "stock": 100,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "4 Chewable Tabs",
+        "price": 249
+      },
+      {
+        "size": "8 Chewable Tabs",
+        "price": 449
+      }
+    ]
+  },
+  {
+    "name": "HealthKart HK Vitals Vitamin D3 2000 IU + Vitamin K2 (MK-7)",
+    "description": "Synergistic combination of Vitamin D3 and natural Vitamin K2 (MK-7) to ensure calcium is directed straight into bones and not arterial walls.",
+    "price": 399,
+    "category": "Vitamins",
+    "image": "/images/products/product_027.jpg",
+    "stock": 70,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Softgels",
+        "price": 399
+      },
+      {
+        "size": "120 Softgels",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "name": "Fast&Up Magnesio Effervescent Magnesium & Zinc Tablets",
+    "description": "Refreshing lime and lemon effervescent drink containing elemental Magnesium and Zinc to relieve nocturnal muscle cramps and promote deep sleep.",
+    "price": 349,
+    "category": "Vitamins",
+    "image": "/images/products/product_028.jpg",
+    "stock": 65,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "20 Tablets Tube",
+        "price": 349
+      },
+      {
+        "size": "Pack of 3 Tubes",
+        "price": 949
+      }
+    ]
+  },
+  {
+    "name": "Himalayan Organics Plant-Based Vitamin B12 Vegan Capsules",
+    "description": "Fermented plant-based Methylcobalamin B12 providing 1500mcg per capsule for nerve health, cognitive sharpness, and RBC formation.",
+    "price": 549,
+    "category": "Vitamins",
+    "image": "/images/products/product_029.jpg",
+    "stock": 55,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Veg Capsules",
+        "price": 549
+      },
+      {
+        "size": "120 Veg Capsules",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "name": "TrueBasics Ultra Omega-3 Fish Oil 1000mg Triple Strength",
+    "description": "Molecularly distilled mercury-free fish oil delivering 525mg EPA and 400mg DHA per enteric-coated softgel with zero fishy burps.",
+    "price": 799,
+    "category": "Vitamins",
+    "image": "/images/products/product_030.jpg",
+    "stock": 65,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "60 Softgels",
+        "price": 799
+      },
+      {
+        "size": "90 Softgels",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Gold Omega-3 Fish Oil (1250mg)",
+    "description": "Triple strength omega-3 with 460mg EPA and 380mg DHA per capsule. Sourced from cold water deep-sea sardines and anchovies.",
+    "price": 849,
+    "category": "Vitamins",
+    "image": "/images/products/product_031.jpg",
+    "stock": 50,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "60 Softgels",
+        "price": 849
+      },
+      {
+        "size": "120 Softgels",
+        "price": 1549
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Calcium Complex 1000mg with Magnesium & Vitamin D",
+    "description": "High absorption Calcium Citrate Malate formula paired with Magnesium, Zinc, and Vitamin D3 for optimal bone matrix mineral density.",
+    "price": 349,
+    "category": "Vitamins",
+    "image": "/images/products/product_032.jpg",
+    "stock": 85,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 349
+      },
+      {
+        "size": "120 Tablets",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "name": "HealthKart HK Vitals Biotin 10000mcg for Hair, Skin & Nails",
+    "description": "Pure 10,000mcg Vitamin B7 Biotin tablets to stimulate keratin synthesis, reduce hair thinning, and strengthen brittle nails.",
+    "price": 399,
+    "category": "Vitamins",
+    "image": "/images/products/product_033.jpg",
+    "stock": 90,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 399
+      },
+      {
+        "size": "90 Tablets",
+        "price": 549
+      }
+    ]
+  },
+  {
+    "name": "Carbamide Forte Zinc Gluconate 50mg High Absorption",
+    "description": "Immunity-fortifying chelated zinc gluconate tablets to support testosterone production, wound healing, and cellular defense.",
+    "price": 299,
+    "category": "Vitamins",
+    "image": "/images/products/product_034.jpg",
+    "stock": 80,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 299
+      },
+      {
+        "size": "120 Tablets",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "name": "Fast&Up Charge Natural Vitamin C 1000mg with Amla Extract",
+    "description": "Bestselling effervescent Vitamin C drink made from Indian Gooseberry (Amla) and Zinc for radiant skin and daily immunity.",
+    "price": 319,
+    "category": "Vitamins",
+    "image": "/images/products/product_035.jpg",
+    "stock": 75,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "20 Tablets Tube",
+        "price": 319
+      },
+      {
+        "size": "Pack of 3 Tubes",
+        "price": 849
+      }
+    ]
+  },
+  {
+    "name": "Himalayan Organics Apple Cider Vinegar Effervescent Tablets",
+    "description": "Natural apple cider vinegar with the Mother plus Pomegranate and Garcinia Cambogia to support fat metabolism and digestion.",
+    "price": 399,
+    "category": "Vitamins",
+    "image": "/images/products/product_036.jpg",
+    "stock": 60,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "15 Tablets",
+        "price": 399
+      },
+      {
+        "size": "30 Tablets",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Ashwagandha 1000mg Root Extract for Stress & Cortisol",
+    "description": "Potent KSM-66 full-spectrum Ashwagandha root extract providing 5% withanolides to regulate cortisol, elevate mood, and boost vitality.",
+    "price": 349,
+    "category": "Vitamins",
+    "image": "/images/products/product_037.jpg",
+    "stock": 70,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 349
+      },
+      {
+        "size": "120 Tablets",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "name": "TrueBasics CoQ10 100mg for Cellular Heart Energy & Vitality",
+    "description": "Bio-identical Coenzyme Q10 (Ubiquinone) with piperine for cellular ATP synthesis, cardio protection, and combating chronic fatigue.",
+    "price": 899,
+    "category": "Vitamins",
+    "image": "/images/products/product_038.jpg",
+    "stock": 45,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "30 Veg Capsules",
+        "price": 899
+      },
+      {
+        "size": "60 Veg Capsules",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Daily Iron + Folic Acid with Vitamin C",
+    "description": "Gentle on stomach Ferrous Bisglycinate chelate with Vitamin C and Zinc to treat anemia, elevate hemoglobin, and enhance exercise stamina.",
+    "price": 329,
+    "category": "Vitamins",
+    "image": "/images/products/product_039.jpg",
+    "stock": 65,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "60 Tablets",
+        "price": 329
+      }
+    ]
+  },
+  {
+    "name": "HealthKart HK Vitals Glutathione Effervescent with Vitamin C & E",
+    "description": "Japanese Opitac L-Glutathione 500mg effervescent beauty tablets to detoxify liver, scavenge free radicals, and promote glowing skin.",
+    "price": 699,
+    "category": "Vitamins",
+    "image": "/images/products/product_040.jpg",
+    "stock": 50,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "15 Effervescent Tabs",
+        "price": 699
+      },
+      {
+        "size": "30 Effervescent Tabs",
+        "price": 1249
+      }
+    ]
+  },
+  {
+    "name": "Optimum Nutrition Micronized Creatine Monohydrate Powder",
+    "description": "100% pure Creapure pharmaceutical-grade micronized creatine monohydrate. 3g pure creatine per scoop to maximize strength, power output, and muscle cell volume.",
+    "price": 999,
+    "category": "Supplements",
+    "image": "/images/products/product_041.jpg",
+    "stock": 75,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Tub",
+        "price": 999
+      },
+      {
+        "size": "400g Tub",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Creatine Monohydrate CreAMP with Creapure",
+    "description": "Contains authentic Creapure imported directly from Alzchem Germany. Micro-particles for instant water solubility and zero bloating.",
+    "price": 899,
+    "category": "Supplements",
+    "image": "/images/products/product_042.jpg",
+    "stock": 70,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Jar",
+        "price": 899
+      },
+      {
+        "size": "400g Jar",
+        "price": 1349
+      }
+    ]
+  },
+  {
+    "name": "Creapure Germany Certified 100% Pure Creatine Monohydrate",
+    "description": "The global gold standard in creatine purity. Tested 99.99% pure with zero dicyandiamide or dihydrotriazine contaminants.",
+    "price": 1099,
+    "category": "Supplements",
+    "image": "/images/products/product_043.jpg",
+    "stock": 50,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Pouch",
+        "price": 1099
+      },
+      {
+        "size": "500g Tub",
+        "price": 1999
+      }
+    ]
+  },
+  {
+    "name": "AS-IT-IS Nutrition Pure Creatine Monohydrate Unflavored",
+    "description": "Unflavored 200-mesh ultra-fine creatine powder. Increases cellular phosphocreatine stores for explosive strength in heavy squats and bench press.",
+    "price": 549,
+    "category": "Supplements",
+    "image": "/images/products/product_044.jpg",
+    "stock": 90,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Pouch",
+        "price": 549
+      },
+      {
+        "size": "500g Pouch",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "name": "Fast&Up Micronized BCAA 2:1:1 Recovery Formula",
+    "description": "Instantized vegan fermented BCAAs with 2.5g Leucine, 1.25g Isoleucine, 1.25g Valine plus Taurine and Glutamine for mid-workout hydration.",
+    "price": 799,
+    "category": "Supplements",
+    "image": "/images/products/product_045.jpg",
+    "stock": 60,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "400g Tub (Lemon Lime)",
+        "price": 799
+      },
+      {
+        "size": "400g Tub (Watermelon)",
+        "price": 799
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze BCAA Pro with Electrolytes & Glutamine",
+    "description": "7g BCAAs in ideal 2:1:1 ratio with 1g Citrulline Malate, 1g L-Glutamine, and electrolyte hydration salts to reduce intra-workout fatigue.",
+    "price": 849,
+    "category": "Supplements",
+    "image": "/images/products/product_046.jpg",
+    "stock": 65,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Jar",
+        "price": 849
+      },
+      {
+        "size": "450g Jar",
+        "price": 1449
+      }
+    ]
+  },
+  {
+    "name": "Scivation Xtend BCAA Original 7g Branched Chain Aminos",
+    "description": "The world most trusted BCAA brand with 7g BCAAs, 2.5g Glutamine, 1g Citrulline Malate, and zero sugar or calories. Blue Raspberry flavor.",
+    "price": 1699,
+    "category": "Supplements",
+    "image": "/images/products/product_047.jpg",
+    "stock": 45,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "30 Servings Tub",
+        "price": 1699
+      },
+      {
+        "size": "90 Servings Tub",
+        "price": 3999
+      }
+    ]
+  },
+  {
+    "name": "Cellucor C4 Original Pre-Workout Energy Explosive Formula",
+    "description": "Iconic pre-workout supplying 150mg caffeine, 1.6g CarnoSyn Beta-Alanine, and 1g Creatine Nitrate for explosive energy, endurance, and pumps.",
+    "price": 1799,
+    "category": "Supplements",
+    "image": "/images/products/product_048.jpg",
+    "stock": 40,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "30 Servings Tub",
+        "price": 1799
+      },
+      {
+        "size": "60 Servings Tub",
+        "price": 3199
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Pre-Workout WrathX with 300mg Caffeine & TeaCrine",
+    "description": "Extreme hardcore pre-workout loaded with 300mg Caffeine, 3g Beta-Alanine, 2g Citrulline, and 100mg TeaCrine for long-lasting focus without crash.",
+    "price": 1299,
+    "category": "Supplements",
+    "image": "/images/products/product_049.jpg",
+    "stock": 55,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "300g Tub",
+        "price": 1299
+      }
+    ]
+  },
+  {
+    "name": "Optimum Nutrition Gold Standard Pre-Workout",
+    "description": "Clean energy formula with 175mg natural caffeine from tea and coffee beans, 3g Creatine Monohydrate, and 1.5g Beta-Alanine for sustained drive.",
+    "price": 1699,
+    "category": "Supplements",
+    "image": "/images/products/product_050.jpg",
+    "stock": 42,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "30 Servings Tub",
+        "price": 1699
+      }
+    ]
+  },
+  {
+    "name": "AS-IT-IS Nutrition Pure L-Arginine Free Form Amino Acid",
+    "description": "Nitric Oxide precursor amino acid to dilate blood vessels, improve vascularity, and enhance nutrient and oxygen delivery to working muscle fibers.",
+    "price": 499,
+    "category": "Supplements",
+    "image": "/images/products/product_051.jpg",
+    "stock": 75,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Pouch",
+        "price": 499
+      },
+      {
+        "size": "500g Pouch",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Micronized L-Glutamine 5g Muscle Defense",
+    "description": "Pure micronized L-Glutamine to prevent post-exercise muscle soreness, restore glycogen reserves, and strengthen intestinal gut lining integrity.",
+    "price": 649,
+    "category": "Supplements",
+    "image": "/images/products/product_052.jpg",
+    "stock": 65,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Tub",
+        "price": 649
+      },
+      {
+        "size": "400g Tub",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Micronized Citrulline Malate 2:1 for Nitric Oxide Pump",
+    "description": "Pharmaceutical grade 2:1 Citrulline Malate ratio to stimulate arginine production, flush muscle ammonia, and deliver skin-splitting pumps.",
+    "price": 599,
+    "category": "Supplements",
+    "image": "/images/products/product_053.jpg",
+    "stock": 60,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "200g Jar",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "name": "TrueBasics Marine Collagen Peptides Type 1 & 3",
+    "description": "Hydrolyzed deep-sea wild-caught fish collagen peptides with Hyaluronic Acid, Vitamin C, and Biotin for joint cartilage flexibility and skin elasticity.",
+    "price": 1299,
+    "category": "Supplements",
+    "image": "/images/products/product_054.jpg",
+    "stock": 45,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "200g Tub (Orange Flavor)",
+        "price": 1299
+      }
+    ]
+  },
+  {
+    "name": "Wellbeing Nutrition Glow Japanese Marine Collagen Peptides",
+    "description": "Nitta Gelatin Japan patented collagen with 8000mg wild-caught marine collagen peptides, glutathione, and rosehip extract.",
+    "price": 1599,
+    "category": "Supplements",
+    "image": "/images/products/product_055.jpg",
+    "stock": 35,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "250g Tub",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "name": "Fast&Up Reload Instant Hydration & Electrolytes Effervescent",
+    "description": "WHO-formula informed hypotonic electrolyte hydration drink with 5 essential electrolytes (Sodium, Potassium, Magnesium, Calcium, Chlorides).",
+    "price": 249,
+    "category": "Supplements",
+    "image": "/images/products/product_056.jpg",
+    "stock": 90,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "20 Tablets Tube",
+        "price": 249
+      },
+      {
+        "size": "Pack of 3 Tubes",
+        "price": 649
+      }
+    ]
+  },
+  {
+    "name": "Himalayan Organics Shuddha Shilajit Resin 100% Pure",
+    "description": "Authentic high-altitude Himalayan Shilajit resin harvested at 18,000 feet. Rich in 84+ minerals and 75% fulvic acid for vigor and stamina.",
+    "price": 799,
+    "category": "Supplements",
+    "image": "/images/products/product_057.jpg",
+    "stock": 55,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "20g Glass Jar",
+        "price": 799
+      },
+      {
+        "size": "50g Glass Jar",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "name": "Kapiva Himalayan Shilajit Gold Resin with 24K Swarna Bhasma",
+    "description": "Premium Ayurvedic Shilajit enriched with 24 Karat Gold Bhasma, Ashwagandha, and Gokshura for maximum test support and physical vitality.",
+    "price": 1199,
+    "category": "Supplements",
+    "image": "/images/products/product_058.jpg",
+    "stock": 40,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "20g Jar",
+        "price": 1199
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze L-Carnitine 3000mg Liquid Fast Acting Fat Burner",
+    "description": "Fast-absorbing liquid L-Carnitine that shuttles long-chain fatty acids into mitochondria to be burned for muscular fuel during cardio.",
+    "price": 699,
+    "category": "Supplements",
+    "image": "/images/products/product_059.jpg",
+    "stock": 65,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "450 ml Bottle",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Probiotics 50 Billion CFU with 16 Strains & Prebiotics",
+    "description": "Multi-strain delayed-release capsules with 50 Billion CFU live active cultures and prebiotic chicory inulin for optimal microbiome digestion.",
+    "price": 549,
+    "category": "Supplements",
+    "image": "/images/products/product_060.jpg",
+    "stock": 70,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "60 Veg Capsules",
+        "price": 549
+      },
+      {
+        "size": "120 Veg Capsules",
+        "price": 949
+      }
+    ]
+  },
+  {
+    "name": "Pintola All-Natural Peanut Butter Crunchy 100% Peanuts",
+    "description": "Single-ingredient 100% roasted bold peanuts. Zero added sugar, zero salt, zero hydrogenated oils or trans-fats. 30g protein per 100g.",
+    "price": 399,
+    "category": "Snacks",
+    "image": "/images/products/product_061.jpg",
+    "stock": 90,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg Jar",
+        "price": 399
+      },
+      {
+        "size": "2.5 kg Bucket",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "name": "Pintola High Protein Dark Chocolate Peanut Butter",
+    "description": "Fortified with imported European whey protein isolate and real Belgian dark chocolate. Supplies 33g protein per 100g with zero palm oil.",
+    "price": 499,
+    "category": "Snacks",
+    "image": "/images/products/product_062.jpg",
+    "stock": 75,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg Jar",
+        "price": 499
+      },
+      {
+        "size": "2.5 kg Bucket",
+        "price": 1149
+      }
+    ]
+  },
+  {
+    "name": "Alpino High Protein Super Peanut Butter with Whey Isolate",
+    "description": "Crafted with roasted Argentine peanuts, New Zealand whey isolate, and natural cocoa. Non-GMO and gluten-free.",
+    "price": 489,
+    "category": "Snacks",
+    "image": "/images/products/product_063.jpg",
+    "stock": 65,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg Tub",
+        "price": 489
+      },
+      {
+        "size": "2.5 kg Tub",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "name": "MyFitness Chocolate Peanut Butter Smooth Crispy Original",
+    "description": "Iconic recipe with slow-roasted brown peanuts, cocoa, and brown sugar. Smooth creamy consistency that spreads effortlessly on brown bread.",
+    "price": 549,
+    "category": "Snacks",
+    "image": "/images/products/product_064.jpg",
+    "stock": 80,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1.25 kg Jar",
+        "price": 549
+      },
+      {
+        "size": "2.5 kg Jar",
+        "price": 1049
+      }
+    ]
+  },
+  {
+    "name": "The Whole Truth 100% Whey Protein Bars (No Added Sugar)",
+    "description": "Made exclusively from dates, nuts, cocoa, and whey protein concentrate. Absolutely zero added sugar, artificial sweeteners, or hidden syrups.",
+    "price": 599,
+    "category": "Snacks",
+    "image": "/images/products/product_065.jpg",
+    "stock": 70,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Box of 6 Bars (52g each)",
+        "price": 599
+      },
+      {
+        "size": "Box of 12 Bars",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "name": "RiteBite Max Protein Daily 10g Choco Classic Bar",
+    "description": "Balanced nutritional snack bar packing 10g multi-source protein, 5g fiber, 21 essential vitamins and minerals, and zero preservatives.",
+    "price": 360,
+    "category": "Snacks",
+    "image": "/images/products/product_066.jpg",
+    "stock": 85,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Pack of 6 Bars",
+        "price": 360
+      },
+      {
+        "size": "Pack of 12 Bars",
+        "price": 680
+      }
+    ]
+  },
+  {
+    "name": "Yoga Bar 20g High Protein Bar with Nuts & Dark Chocolate",
+    "description": "Clean high protein snack delivering 20g protein from whey isolate and almonds. 10g dietary fiber with zero soy protein isolate.",
+    "price": 649,
+    "category": "Snacks",
+    "image": "/images/products/product_067.jpg",
+    "stock": 60,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Box of 6 Bars",
+        "price": 649
+      },
+      {
+        "size": "Box of 12 Bars",
+        "price": 1199
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze Protein Bar 20g Choco Cranberry Layered",
+    "description": "Delicious dual-layered chewy nougat protein bar with dried cranberries, dark chocolate coating, and 20g protein per 70g bar.",
+    "price": 699,
+    "category": "Snacks",
+    "image": "/images/products/product_068.jpg",
+    "stock": 55,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Box of 6 Bars",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "name": "Yogabar Dark Chocolate High Fiber Rolled Oats",
+    "description": "100% wholegrain rolled oats blended with premium dark chocolate, chia seeds, watermelon seeds, and pumpkin seeds for a hearty breakfast.",
+    "price": 299,
+    "category": "Snacks",
+    "image": "/images/products/product_069.jpg",
+    "stock": 90,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "1 kg Pouch",
+        "price": 299
+      },
+      {
+        "size": "2 kg Value Pack",
+        "price": 549
+      }
+    ]
+  },
+  {
+    "name": "MuscleBlaze High Protein Dark Chocolate Oats with Probiotics",
+    "description": "High protein breakfast oats offering 22g protein per 100g serving with real cocoa and LactoSpore probiotics for easy digestive assimilation.",
+    "price": 499,
+    "category": "Snacks",
+    "image": "/images/products/product_070.jpg",
+    "stock": 75,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "1 kg Tub",
+        "price": 499
+      },
+      {
+        "size": "2 kg Jar",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "name": "True Elements Rolled Oats 100% Wholegrain Gluten-Free",
+    "description": "Jumbo whole rolled oats packed with soluble beta-glucan fiber to lower LDL cholesterol and maintain prolonged satiety.",
+    "price": 249,
+    "category": "Snacks",
+    "image": "/images/products/product_071.jpg",
+    "stock": 85,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "1 kg Pouch",
+        "price": 249
+      },
+      {
+        "size": "2 kg Pack",
+        "price": 469
+      }
+    ]
+  },
+  {
+    "name": "Farmley Roasted Premium Foxnuts / Makhana (Himalayan Salt)",
+    "description": "Handpicked super-crispy lotus seeds slow-roasted in pure olive oil and dusted with natural pink Himalayan rock salt. Low calorie snack.",
+    "price": 199,
+    "category": "Snacks",
+    "image": "/images/products/product_072.jpg",
+    "stock": 95,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "100g Pouch",
+        "price": 199
+      },
+      {
+        "size": "Pack of 3 (300g)",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "name": "Farmley Roasted Makhana Cream & Onion Crunchy Foxnuts",
+    "description": "Crispy foxnuts flavored with tangy sour cream and chives. Rich in calcium, magnesium, and plant antioxidants with zero trans fats.",
+    "price": 219,
+    "category": "Snacks",
+    "image": "/images/products/product_073.jpg",
+    "stock": 80,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "100g Pouch",
+        "price": 219
+      },
+      {
+        "size": "Pack of 3 (300g)",
+        "price": 549
+      }
+    ]
+  },
+  {
+    "name": "Happilo California Premium Raw Whole Almonds",
+    "description": "Grade-A California nonpareil raw almonds loaded with Vitamin E, healthy monounsaturated fatty acids, and plant protein.",
+    "price": 499,
+    "category": "Snacks",
+    "image": "/images/products/product_074.jpg",
+    "stock": 85,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "500g Zip Pouch",
+        "price": 499
+      },
+      {
+        "size": "1 kg Value Pack",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "name": "Happilo 100% Natural Raw Whole Cashews",
+    "description": "Crisp whole W320 grade cashew nuts naturally rich in zinc, magnesium, and copper to fuel energy metabolism and cellular immunity.",
+    "price": 549,
+    "category": "Snacks",
+    "image": "/images/products/product_075.jpg",
+    "stock": 75,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "500g Zip Pouch",
+        "price": 549
+      },
+      {
+        "size": "1 kg Pouch",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "name": "True Elements 7-in-1 Super Seeds Mix",
+    "description": "Nutrient-dense superfood seed blend of Chia, Flax, Pumpkin, Sunflower, Watermelon, Sesame, and White Chia seeds roasted with rock salt.",
+    "price": 349,
+    "category": "Snacks",
+    "image": "/images/products/product_076.jpg",
+    "stock": 70,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "250g Jar",
+        "price": 349
+      },
+      {
+        "size": "500g Jar",
+        "price": 629
+      }
+    ]
+  },
+  {
+    "name": "The Whole Truth Dark Chocolate Protein Cookies",
+    "description": "Soft-baked cookies made from almond flour, whey isolate, and dark chocolate chunks. 15g protein per cookie with zero refined flour or palm oil.",
+    "price": 399,
+    "category": "Snacks",
+    "image": "/images/products/product_077.jpg",
+    "stock": 65,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Box of 5 Cookies",
+        "price": 399
+      },
+      {
+        "size": "Box of 10 Cookies",
+        "price": 749
+      }
+    ]
+  },
+  {
+    "name": "RiteBite Max Protein 7-Grain Protein Chips & Crisps",
+    "description": "Baked non-fried multigrain chips offering 10g protein and 4g fiber per bag. Delicious Spanish Tomato flavor.",
+    "price": 180,
+    "category": "Snacks",
+    "image": "/images/products/product_078.jpg",
+    "stock": 90,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "Pack of 3 Bags (45g each)",
+        "price": 180
+      },
+      {
+        "size": "Pack of 6 Bags",
+        "price": 340
+      }
+    ]
+  },
+  {
+    "name": "Tata Simply Better Plant-Based Crunchy Protein Nuggets",
+    "description": "Soya and pea protein chunks delivering 52g protein per 100g with spongy juicy texture when cooked in healthy broths.",
+    "price": 149,
+    "category": "Snacks",
+    "image": "/images/products/product_079.jpg",
+    "stock": 100,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "200g Pack",
+        "price": 149
+      },
+      {
+        "size": "500g Pack",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "name": "Yogabar 100% Pure Organic Chia Seeds Raw",
+    "description": "Raw certified organic black chia seeds packed with Alpha-Linolenic Acid (plant Omega-3), soluble mucilage fiber, and essential minerals.",
+    "price": 249,
+    "category": "Snacks",
+    "image": "/images/products/product_080.jpg",
+    "stock": 85,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "250g Jar",
+        "price": 249
+      },
+      {
+        "size": "500g Jar",
+        "price": 449
+      }
+    ]
+  },
+  {
+    "name": "Cockatoo Solid Cast Iron Hex Dumbbells Pair",
+    "description": "Commercial quality solid cast iron core encased in heavy-duty natural virgin rubber. Hexagonal anti-roll design with ergonomic knurled chrome handles.",
+    "price": 999,
+    "category": "Equipment",
+    "image": "/images/products/product_081.jpg",
+    "stock": 50,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Pair (2.5 kg x 2)",
+        "price": 999
+      },
+      {
+        "size": "Pair (5 kg x 2)",
+        "price": 1899
+      },
+      {
+        "size": "Pair (10 kg x 2)",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "name": "Kore 20kg PVC Home Gym Dumbbell & Barbell Kit",
+    "description": "Complete home gym package with 20kg weight plates, 1 x 3ft curl rod, 1 x 5ft straight rod, 2 x dumbbell rods, locks, skipping rope, and gym gloves.",
+    "price": 1299,
+    "category": "Equipment",
+    "image": "/images/products/product_082.jpg",
+    "stock": 45,
+    "rating": 4.6,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "20 kg Full Set",
+        "price": 1299
+      },
+      {
+        "size": "30 kg Full Set",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Cast Iron Kettlebell Wide Powder-Coated Handle",
+    "description": "Precision gravity-cast single piece cast iron kettlebell with matte powder coating for non-slip grip during two-handed swings and Turkish get-ups.",
+    "price": 1199,
+    "category": "Equipment",
+    "image": "/images/products/product_083.jpg",
+    "stock": 40,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "6 kg Bell",
+        "price": 1199
+      },
+      {
+        "size": "10 kg Bell",
+        "price": 1899
+      },
+      {
+        "size": "16 kg Bell",
+        "price": 2899
+      }
+    ]
+  },
+  {
+    "name": "Cockatoo Competition Grade Vinyl Kettlebell",
+    "description": "Floor-protective smooth vinyl-coated kettlebell with color-coded weight bands to protect home tiled floors and deaden clattering noise.",
+    "price": 899,
+    "category": "Equipment",
+    "image": "/images/products/product_084.jpg",
+    "stock": 35,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "4 kg Vinyl",
+        "price": 899
+      },
+      {
+        "size": "8 kg Vinyl",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Fabric Resistance Bands Set of 3 Booty Hip Bands",
+    "description": "Triple-resistance heavy cotton-polyester woven bands with inner non-slip latex grip lines that never pinch skin or roll up during squats and lunges.",
+    "price": 499,
+    "category": "Equipment",
+    "image": "/images/products/product_085.jpg",
+    "stock": 80,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "Set of 3 (Light/Med/Heavy)",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Pull-Up Resistance Bands Heavy-Duty Latex Loop",
+    "description": "Continuous 100% natural Malaysian latex loop bands for pull-up assistance, barbell accommodating resistance, and deep dynamic mobility stretching.",
+    "price": 449,
+    "category": "Equipment",
+    "image": "/images/products/product_086.jpg",
+    "stock": 70,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Red (15-35 lbs)",
+        "price": 449
+      },
+      {
+        "size": "Black (25-65 lbs)",
+        "price": 699
+      },
+      {
+        "size": "Purple (35-85 lbs)",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "name": "Strauss Professional TPE Eco-Friendly Non-Slip Yoga Mat (6mm)",
+    "description": "High-density dual-textured TPE yoga mat offering superior joint cushioning, sweat-repellent closed-cell surface, and carrying strap included.",
+    "price": 799,
+    "category": "Equipment",
+    "image": "/images/products/product_087.jpg",
+    "stock": 60,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "6mm Standard (Blue/Grey)",
+        "price": 799
+      },
+      {
+        "size": "8mm Extra Cushion (Black)",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "name": "Boldfit High Density Foam Roller for Deep Tissue Release",
+    "description": "Molded hollow EVA foam roller with grid matrix bumps designed to mimic massage therapist fingers, loosening tight IT bands and thoracic spine.",
+    "price": 599,
+    "category": "Equipment",
+    "image": "/images/products/product_088.jpg",
+    "stock": 65,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "13-inch Compact",
+        "price": 599
+      },
+      {
+        "size": "18-inch Extended",
+        "price": 849
+      }
+    ]
+  },
+  {
+    "name": "Nivia Speed Skipping Rope with 360-Degree Ball Bearings",
+    "description": "Smooth high-rpm steel ball bearing swivel system with durable PVC cord and lightweight ergonomic tapered foam handles for fast double-unders.",
+    "price": 199,
+    "category": "Equipment",
+    "image": "/images/products/product_089.jpg",
+    "stock": 90,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "Standard 9ft Rope",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Steel Wire High-Speed Skipping Jump Rope",
+    "description": "Tangle-free 2.5mm coated steel wire cable with metal aluminum knurled handles designed for lightning-fast CrossFit double-unders.",
+    "price": 349,
+    "category": "Equipment",
+    "image": "/images/products/product_090.jpg",
+    "stock": 75,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "Adjustable Steel Cable",
+        "price": 349
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Adjustable Hand Gripper with Counter (10kg-60kg)",
+    "description": "Heavy stainless steel spring with dial resistance adjustment from 10kg to 60kg and built-in mechanical click counter to track forearm reps.",
+    "price": 249,
+    "category": "Equipment",
+    "image": "/images/products/product_091.jpg",
+    "stock": 85,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Single Gripper",
+        "price": 249
+      },
+      {
+        "size": "Twin Pack",
+        "price": 449
+      }
+    ]
+  },
+  {
+    "name": "Strauss Heavy Hand Grip Strengthener Aluminium Non-Slip",
+    "description": "Pro caliber knurled aviation aluminum handles with high-tensile alloy steel torsion spring to build crushing grip and crushing hand strength.",
+    "price": 399,
+    "category": "Equipment",
+    "image": "/images/products/product_092.jpg",
+    "stock": 55,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Underweight",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "100 lbs Resistance",
+        "price": 399
+      },
+      {
+        "size": "150 lbs Resistance",
+        "price": 449
+      },
+      {
+        "size": "200 lbs Resistance",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "name": "Boldfit 4-Inch Neoprene Weightlifting Belt with Steel Buckle",
+    "description": "Contoured lumbar support belt with heavy-duty quick-release steel slide roller buckle and reinforced perimeter stitching for squat support.",
+    "price": 699,
+    "category": "Equipment",
+    "image": "/images/products/product_093.jpg",
+    "stock": 50,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Medium (30-35 inch)",
+        "price": 699
+      },
+      {
+        "size": "Large (35-40 inch)",
+        "price": 699
+      },
+      {
+        "size": "XL (40-45 inch)",
+        "price": 749
+      }
+    ]
+  },
+  {
+    "name": "Strauss Genuine Leather 4-Inch Powerlifting Support Belt",
+    "description": "Stiff 10mm genuine buffalo leather powerlifting belt with heavy chrome twin-prong buckle for maximum intra-abdominal pressure during heavy deadlifts.",
+    "price": 1299,
+    "category": "Equipment",
+    "image": "/images/products/product_094.jpg",
+    "stock": 40,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight"
+    ],
+    "variants": [
+      {
+        "size": "Size M",
+        "price": 1299
+      },
+      {
+        "size": "Size L",
+        "price": 1299
+      },
+      {
+        "size": "Size XL",
+        "price": 1399
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Premium Stainless Steel Gym Shaker Bottle (750ml)",
+    "description": "BPA-free food grade 304 stainless steel shaker cup with leak-proof flip lock spout and internal whisk wire ball for lump-free protein shakes.",
+    "price": 499,
+    "category": "Equipment",
+    "image": "/images/products/product_095.jpg",
+    "stock": 80,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "750 ml Silver",
+        "price": 499
+      },
+      {
+        "size": "750 ml Matte Black",
+        "price": 549
+      }
+    ]
+  },
+  {
+    "name": "Cockatoo Push-Up Bars Stand with Padded Non-Slip Grips",
+    "description": "Ergonomic S-shaped chromed steel push-up stands with thick high-density foam handles to relieve wrist hyperextension during deep chest presses.",
+    "price": 349,
+    "category": "Equipment",
+    "image": "/images/products/product_096.jpg",
+    "stock": 65,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Pair of Stands",
+        "price": 349
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Wrist Wraps Support for Heavy Bench Press & Squats",
+    "description": "Heavy thumb-loop elasticized cotton-polyester wrist wraps with wide commercial grade Velcro fastening to stabilize wrists under heavy bar loads.",
+    "price": 299,
+    "category": "Equipment",
+    "image": "/images/products/product_097.jpg",
+    "stock": 75,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Pair (18-inch Standard)",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Lifting Wrist Straps for Heavy Deadlifts & Pulls",
+    "description": "Heavy-duty 100% thick woven cotton lifting straps with neoprene wrist padding to eliminate grip fatigue on heavy barbell deadlifts and rows.",
+    "price": 249,
+    "category": "Equipment",
+    "image": "/images/products/product_098.jpg",
+    "stock": 85,
+    "rating": 4.9,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "Pair (Standard)",
+        "price": 249
+      }
+    ]
+  },
+  {
+    "name": "Cockatoo Professional Aerobic Stepper Bench (2-Level)",
+    "description": "Non-slip shock-absorbing textured surface step bench with two height adjustments (10cm and 15cm) for high-intensity step aerobic workouts.",
+    "price": 999,
+    "category": "Equipment",
+    "image": "/images/products/product_099.jpg",
+    "stock": 35,
+    "rating": 4.7,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Obese"
+    ],
+    "variants": [
+      {
+        "size": "2-Level Stepper",
+        "price": 999
+      },
+      {
+        "size": "3-Level Stepper",
+        "price": 1399
+      }
+    ]
+  },
+  {
+    "name": "Boldfit Liquid Grip Chalk for Weightlifting and Calisthenics",
+    "description": "Fast-drying magnesium carbonate liquid chalk that prevents sweaty palms and maximizes grip friction without creating messy dust clouds.",
+    "price": 349,
+    "category": "Equipment",
+    "image": "/images/products/product_100.jpg",
+    "stock": 55,
+    "rating": 4.8,
+    "recommendedFor": [
+      "Normal",
+      "Overweight",
+      "Underweight"
+    ],
+    "variants": [
+      {
+        "size": "100 ml Bottle",
+        "price": 349
+      },
+      {
+        "size": "250 ml Bottle",
+        "price": 599
+      }
+    ]
+  }
+]
