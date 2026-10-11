@@ -19,7 +19,7 @@ export const createOrder = async (req, res) => {
     // Support items provided directly in request body (e.g., from checkout modal state)
     if (Array.isArray(req.body.items) && req.body.items.length > 0) {
       items = req.body.items.map((item) => ({
-        productId: item.productId || item.product?._id || item._id,
+        productId: item.productId || item.product?._id || item._id || new mongoose.Types.ObjectId(),
         name: item.name || item.product?.name || 'Nutrition Product',
         quantity: Math.max(1, Number(item.quantity) || 1),
         price: Number(item.price) || Number(item.product?.price) || 0,
