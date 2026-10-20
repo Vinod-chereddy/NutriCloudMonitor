@@ -18,8 +18,20 @@ async function testFlow(baseUrl) {
   const token = loginData.token;
   console.log(`   ✅ Logged in successfully! Received token (length: ${token.length})`);
 
-  // 2. Access SOC Telemetry endpoints using this user token
-  console.log(`\n2. Accessing SOC Telemetry endpoints using user token...`);
+  // 2. Admin Authentication for SOC Telemetry endpoints
+  console.log(`\n2. Authenticating as Admin for SOC Telemetry (admin@healthcart.com)...`);
+  const adminLoginRes = await fetch(`${baseUrl}/api/admin/auth/login`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email: 'admin@healthcart.com', password: 'admin123' })
+  });
+  const adminLoginData = await adminLoginRes.json();
+  const adminToken = adminLoginData.token;
+  if (!adminToken) {
+    throw new Error(`Admin login failed: ${JSON.stringify(adminLoginData)}`);
+  }
+  console.log(`   ✅ Admin authenticated! Received SOC clearance token.`);
+
   const socEndpoints = [
     '/api/admin/dashboard',
     '/api/admin/soc-metrics',
@@ -32,7 +44,7 @@ async function testFlow(baseUrl) {
   for (const ep of socEndpoints) {
     const res = await fetch(`${baseUrl}${ep}`, {
       headers: {
-        'Authorization': `Bearer ${token}`,
+        'Authorization': `Bearer ${adminToken}`,
         'Content-Type': 'application/json'
       }
     });

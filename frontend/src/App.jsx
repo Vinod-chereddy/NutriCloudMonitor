@@ -13,6 +13,7 @@ import Cart from './components/Cart/Cart';
 import Orders from './components/Orders/Orders';
 import Wishlist from './components/Wishlist/Wishlist';
 import AdminDashboard from './components/Admin/AdminDashboard';
+import AdminLogin from './components/Admin/AdminLogin';
 import RouteTracker from './components/RouteTracker';
 import ErrorBoundary from './components/Common/ErrorBoundary';
 import './index.css';
@@ -73,7 +74,7 @@ function App() {
                 />
 
                 {/* Admin Routes */}
-                <Route path="/admin/login" element={<Navigate to="/login" replace />} />
+                <Route path="/admin/login" element={<AdminLogin />} />
                 <Route
                   path="/admin/dashboard"
                   element={
@@ -85,7 +86,7 @@ function App() {
 
                 {/* Default Entry Route - Redirect to Login if unauthenticated */}
                 <Route path="/" element={<Navigate to="/login" replace />} />
-                <Route path="/admin" element={<Navigate to="/login" replace />} />
+                <Route path="/admin" element={<Navigate to="/admin/login" replace />} />
                 <Route path="*" element={<Navigate to="/login" replace />} />
             </Routes>
           </ErrorBoundary>

@@ -2,11 +2,13 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Search, ShoppingCart, User, ChevronDown, Shield, Heart, Package, LogOut, Award, Activity } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
+import { useAdminAuth } from '../../context/AdminAuthContext';
 import { useWishlist } from '../../context/WishlistContext';
 import { cartAPI } from '../../services/api';
 
 const NutriNavbar = ({ searchTerm = '', setSearchTerm = () => {}, onSearch = () => {} }) => {
   const { user, logout } = useAuth();
+  const { isAuthenticated: isAdminAuth } = useAdminAuth();
   const { wishlistCount } = useWishlist();
   const navigate = useNavigate();
   const location = useLocation();
@@ -326,7 +328,13 @@ const NutriNavbar = ({ searchTerm = '', setSearchTerm = () => {}, onSearch = () 
           </button>
 
           <button
-            onClick={() => navigate('/admin/dashboard')}
+            onClick={() => {
+              if (isAdminAuth) {
+                navigate('/admin/dashboard');
+              } else {
+                navigate('/admin/login');
+              }
+            }}
             className="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold bg-[#f1f3f6] text-emerald-700 hover:text-emerald-800 shadow-[3px_3px_6px_#d1d9e6,-3px_-3px_6px_#ffffff] transition-all"
           >
             <span>🛡️</span>
