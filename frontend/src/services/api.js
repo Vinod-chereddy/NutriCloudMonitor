@@ -16,6 +16,7 @@ export const ASSET_URL = API_URL.replace("/api", "");
 
 const api = axios.create({
   baseURL: API_URL,
+  timeout: 12000,
   headers: {
     "Content-Type": "application/json"
   },

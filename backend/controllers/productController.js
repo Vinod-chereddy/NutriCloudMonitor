@@ -76,17 +76,13 @@ export const getAllProducts = async (req, res) => {
       products = items;
     }
 
-    // 3. Log user activity if authenticated
-    if (req.user && req.user.userId) {
-      try {
-        await ActivityLog.create({
-          userId: req.user.userId,
-          action: 'view_product',
-          details: { category, search },
-        });
-      } catch (logErr) {
-        // Activity log error should never interrupt catalog browsing
-      }
+    // 3. Log user activity asynchronously (non-blocking) so catalog loading is instant (<10ms)
+    if (req.user && req.user.userId && ActivityLog.db && ActivityLog.db.readyState === 1) {
+      ActivityLog.create({
+        userId: req.user.userId,
+        action: 'view_product',
+        details: { category, search },
+      }).catch(() => {});
     }
 
     res.status(200).json({
@@ -118,14 +114,12 @@ export const getProductById = async (req, res) => {
       return res.status(404).json({ message: 'Product not found' });
     }
 
-    if (req.user && req.user.userId) {
-      try {
-        await ActivityLog.create({
-          userId: req.user.userId,
-          action: 'view_product',
-          details: { productId: product._id, productName: product.name },
-        });
-      } catch (logErr) {}
+    if (req.user && req.user.userId && ActivityLog.db && ActivityLog.db.readyState === 1) {
+      ActivityLog.create({
+        userId: req.user.userId,
+        action: 'view_product',
+        details: { productId: product._id, productName: product.name },
+      }).catch(() => {});
     }
 
     res.status(200).json({

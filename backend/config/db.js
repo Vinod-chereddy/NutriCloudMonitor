@@ -10,9 +10,9 @@ if (!process.env.RENDER && !process.env.VERCEL) {
   }
 }
 
-// Adjust buffer timeout: shorter on local dev for fast feedback, longer on cloud for cold starts
-const isCloud = !!(process.env.RENDER || process.env.VERCEL);
-mongoose.set('bufferTimeoutMS', isCloud ? 25000 : 8000);
+// Prevent Mongoose from freezing requests for 25 seconds when disconnected:
+mongoose.set('bufferCommands', false);
+mongoose.set('bufferTimeoutMS', 1500);
 
 const connectDB = async () => {
   try {
@@ -28,8 +28,8 @@ const connectDB = async () => {
     }
 
     const conn = await mongoose.connect(mongoUri, {
-      serverSelectionTimeoutMS: isCloud ? 15000 : 8000,
-      socketTimeoutMS: 45000,
+      serverSelectionTimeoutMS: 5000,
+      socketTimeoutMS: 30000,
     });
     console.log(`✅ MongoDB Connected: ${conn.connection.host}`);
     return conn;

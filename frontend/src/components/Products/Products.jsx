@@ -494,12 +494,20 @@ const Products = () => {
                 <p className="text-xs text-gray-500 max-w-md mx-auto">
                   Try clearing your category, price range, or rating filters to see more available products.
                 </p>
-                <button
-                  onClick={handleResetFilters}
-                  className="neo-btn-blue px-6 py-2 text-xs font-bold"
-                >
-                  Reset All Filters
-                </button>
+                <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+                  <button
+                    onClick={handleResetFilters}
+                    className="neo-btn-blue px-6 py-2 text-xs font-bold"
+                  >
+                    Reset All Filters
+                  </button>
+                  <button
+                    onClick={fetchProducts}
+                    className="px-5 py-2 text-xs font-bold bg-[#f1f3f6] text-[#2874f0] rounded-xl shadow-[4px_4px_8px_#c5cad3,-4px_-4px_8px_#ffffff] hover:text-blue-700 transition-all active:shadow-[inset_2px_2px_4px_#c5cad3,inset_-2px_-2px_4px_#ffffff]"
+                  >
+                    🔄 Reload Catalog
+                  </button>
+                </div>
               </div>
             ) : (
               <div className="space-y-6">
