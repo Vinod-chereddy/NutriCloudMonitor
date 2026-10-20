@@ -11,7 +11,9 @@
     "server": "npm --prefix backend start",
     "client": "npm --prefix frontend run dev",
     "dev:backend": "npm --prefix backend run dev",
-    "seed": "node backend/seeds/seedProducts.js && node backend/seeds/seedAdmin.js"
+    "seed": "node backend/seeds/seedProducts.js && node backend/seeds/seedAdmin.js",
+    "verify": "node scratch/verify_buttons.mjs",
+    "push": "cmd /c push_to_github.bat"
   },
   "keywords": [
     "soc-monitor",

@@ -94,12 +94,29 @@ async function testFlow(baseUrl) {
 }
 
 async function run() {
-  try {
-    await testFlow('http://localhost:5000');
-    await testFlow('https://nutricloudmonitor.onrender.com');
-  } catch (err) {
-    console.error('Test execution error:', err);
+  const targets = [
+    { name: 'Local Dev Server', url: 'http://localhost:5000' },
+    { name: 'Render Cloud Deployment', url: 'https://nutricloudmonitor.onrender.com' }
+  ];
+
+  for (const target of targets) {
+    try {
+      // Check if target is responding first
+      const healthCheck = await fetch(`${target.url}/api/health`, { signal: AbortSignal.timeout(4000) }).catch(() => null);
+      if (!healthCheck || !healthCheck.ok) {
+        console.log(`\n========================================`);
+        console.log(`ℹ️  ${target.name} (${target.url}) is offline or unreachable.`);
+        console.log(`   (Start server with 'npm start' to test locally)`);
+        console.log(`========================================`);
+        continue;
+      }
+
+      await testFlow(target.url);
+    } catch (err) {
+      console.error(`❌ Verification failed on ${target.name}:`, err.message || err);
+    }
   }
 }
 
 run();
+
